@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.table{
+margin:0 auto;
+width: 500px;
+text-align: center;
+border-collapse: collapse;
+}
+caption{
+    font-size: 30px;
+    font-variant:small-caps;
+    font-weight: bolder;
+    color:purple;
+    text-shadow: 0 0 20px plum;
+    margin: 10px 0  ;
+}
+.dong1{
+    background-color:rgb(170, 230, 80) ;
+    margin:5px 0;
+}
+.dong2{
+    background-color:rgb(245, 236, 198) ;
+}
+.col1{
+   width:15%;
+   
+}
+.col2{
+    width:25%;
+}
+.col3{
+    width:15%;
+}
+.col4{
+    width:25%;
+}
+.col5{
+    width:20%;
+   
+}

@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#page{
+    max-width:1000px;
+    margin:0 auto;
+    box-shadow: 0 0 10px #000;
+}
+#page header{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: orangered ;
+}
+
+#header nav{
+    line-height: 40px;
+    background-color: white;
+    text-align: center;
+    font-variant: small-caps;
+    background-color:orangered ;
+}
+
+#page article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+#page aside{
+    list-style-image: url('ten.png');
+    min-height:400px;
+    width:25%;
+    background-color:white  ;
+    float:right;
+}
+
+#page footer{
+    border-top:5px double orangered;
+     line-height:50px;
+    background-color:lightcyan;
+    text-align:center;
+   font-variant:small-caps;
+    clear:both;
+}
+
+.menu>ul>li{
+    display:inline-block;
+    position:relative;
+}
+.menu>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:orangered ;
+    text-align:center;
+} 
+.menu>ul>li>a{
+    display:block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}
+.menu>ul>li:hover>ul{
+    display:block;
+}
+.menu ul ul {
+    position:absolute;
+    display:none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-radius: 3px;;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray ;
+}
+.menu ul ul a{
+    display:block;
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+}
+.menu ul ul a:hover{
+    background-color:orangered;
+    color:white;
+}
+
+.vmenu{
+    padding:0px;
+    margin:5px;
+    list-style-image: url('ten.png') ;
+    border-radius:3px;
+    box-shadow:0 0 2px white ;
+    }
+.vmenu a{
+    background: url('') no-repeat 10px center ;
+    display: block ;
+    border-bottom: 1px dotted orangered ;
+    color: orangered ;
+    font-variant: small-caps ;
+    font-size: larger ;
+    text-decoration: none ;
+    padding: 8px 5px 8px 30px;
+    }
+.vmenu a:hover{
+    background: url('ten') no-repeat 10px center ;
+    border-bottom: 1px dotted white ;
+    background-color: orangered ;
+    color: white ;
+    font-weight: bold;
+    }
+    
+header img{
+        width: 100%;
+    }
+header .container{
+    Position:relative;
+    background-image: url(sv.jpg);
+    background-size: 100% 100%;
+    height: 280px;
+}
+header .container h1{
+    color: #fff;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 50.0px;
+    text-shadow: 0 0 22px orangered;
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+    text-decoration: orangered 2px;
+}
+header ul.menumenu li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-variant: small-caps;
+    height: 45px;
+    font-weight: bolder;
+}
+header ul.menumenu li a{
+    position: relative;
+    display: inline-block;
+    float: left;
+    line-height: 45px;
+    padding: 0 8px;
+    color:white;
+    text-decoration: none;
+}
+header ul.menumenu li a:hover{
+    color:yellow ;
+}
+.clearfix{
+    visibility: visible;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.top-right{
+    Position:absolute;
+    Top:0px;
+    Right:0px;
+    Border-bottom-left-radius: 30px;
+    box-shadow: 0 0 15px;
+    padding-left: 10px;
+    background-color: orangered ;
+}
+.company-info{
+    Bottom:30px;
+    Left:15px;
+    position: absolute;
+}
+.company-info h1{
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px orangered;
+    border-bottom: 2px orangered solid;
+}
+.company-info p{
+    text-align: justify;
+    font-size: 20px;
+    color:yellow  ;
+    font-weight: bolder;
+    padding-top: 5px;
+    
+}

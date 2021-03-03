@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab9-bài 2 </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style2.css"/>
+
+    </head>
+    <body>
+        <div class="form-tt">
+            <h1>Form thông tin</h1>
+            <div class="form">
+                <form action="#" method="POST" enctype="multipart/form-data">
+                    <label for="#">họ và tên</label><br>
+                    <input type="text" name="name"><br>
+                    <label for="#">
+                        Giới tính 
+            
+                        <label><input type="radio" name="gender" value="male" checked="checked"/>Nam</label> 
+                        <label><input type="radio" name="gender" value="female"/>Nữ</label> 
+                         </label> <br>
+                         
+                    <lable for="#">hình ảnh</lable><br>
+                    <input type="button" value="Choose File">No File Choose<br> 
+                    <lable>Quốc tịch</lable><br>
+                    <select name="quoctich" id="qt">
+                        <option value="">United State </option>
+                        <option value="">England</option>
+                        <option value="">Việt Nam</option>
+                        <option value="">Korea</option>
+                        <option value="">Trung Quốc</option>
+                        <option value="">Nhật Bản</option>
+                    </select>
+                   <br>  <lable for="#">sở thích</lable><br>
+                    <lable for="#">
+                        <input type="checkbox">thể thao
+                        <input type="checkbox">du lịch  
+                        <input type="checkbox">âm nhạc  
+                        <input type="checkbox">ẩm thực   
+                    </lable><br>
+                    <lable for="#">Ghi chú</lable><br>
+                    <textarea name="ghi chú" id="gc" cols="40" row="20"></textarea>
+                        <br>
+                        <hr>
+                        <input type="button" value="Đăng ký ">
+                        <input type="button" value="nhập lại">
+                </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+.form-tt{
+    margin:0 auto;
+    width:400px;
+
+}
+h1{
+    font-weight: bolder;
+    color:white;
+    text-shadow: 0 0 15px blue ;
+    text-align:center;
+    font-variant: small-caps;
+}
+.form{
+    border: 2px solid blue;
+    margin:10px;
+    padding:15px;
+    border radius:10px;
+}
+label{
+    font-variant: small-caps;
+}
